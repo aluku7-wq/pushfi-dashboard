@@ -31,7 +31,9 @@ const Header = () => {
                 <MdMenu
                     className="text-3xl lg:hidden "
                     onClick={() =>
-                        dispatch(setsidebarStatus("fixed bg-bgColorFade"))
+                        dispatch(
+                            setsidebarStatus("fixed bg-bgColorFade shadow-xl")
+                        )
                     }
                 />
                 <div className="flex gap-4 items-center cursor-pointer">

@@ -15,7 +15,7 @@ const Sidebar = () => {
     const dispatch = useAppDispatch();
     return (
         <div
-            className={`${sidebarstatus} lg:flex flex-col w-[17rem]  text-textColor  z-50 min-h-screen pr-4 shadow-xl`}
+            className={`${sidebarstatus} lg:flex flex-col w-[17rem]  text-textColor  z-50 min-h-screen pr-4 shadow-none`}
         >
             <div className="flex items-center  p-4 lg:p-8 w-full justify-between">
                 <div className="flex gap-4 items-center">
